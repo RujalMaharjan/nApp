@@ -25,7 +25,7 @@ kubectl expose deployment node-app --type=NodePort --port=80
 # Verify the deployment by checking the logs of the Node.js application
 ```SHELL
 kubectl logs deployment/node-app
-
+```
 # Access the application using Minikube's URL for the NodePort service
 ```SHELL
 minikube service node-app --url
