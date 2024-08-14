@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: your-dockerhub-username/node-app
+        image: rujalmhn/assignment3:v1
         ports:
         - containerPort: 80
         env:
